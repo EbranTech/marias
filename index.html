@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Una pequeña página para una persona muy especial. Feliz cumpleaños, niña berrinchuda."
+    />
+    <meta name="theme-color" content="#160d1c" />
+    <title>Feliz cumpleaños, niña berrinchuda 💗</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💗</text></svg>"
+    />
+  </head>
+  <body class="is-locked">
+    <noscript>
+      <p class="noscript">Esta sorpresa necesita JavaScript para mostrar sus animaciones.</p>
+    </noscript>
+
+    <div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title">
+      <div class="intro__glow" aria-hidden="true"></div>
+      <div class="intro__hearts" aria-hidden="true">
+        <span>♡</span><span>♡</span><span>♡</span><span>♡</span><span>♡</span>
+      </div>
+      <div class="intro__content">
+        <p class="eyebrow">Una pequeña interrupción</p>
+        <h1 id="intro-title">Hola, niña<br /><em>berrinchuda</em></h1>
+        <p class="intro__copy">
+          Solo pasaba a decirte algo…<br />pero antes, prende la música, ¿sí?
+        </p>
+        <button class="heart-button" id="start-experience" type="button">
+          <span class="heart-button__icon" aria-hidden="true">♥</span>
+          <span>Prender la música</span>
+        </button>
+        <p class="intro__hint">Sube un poquito el volumen 💗</p>
+      </div>
+    </div>
+
+    <div class="ambient-hearts" id="ambient-hearts" aria-hidden="true"></div>
+
+    <main id="main-content">
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="hero__aurora" aria-hidden="true"></div>
+        <div class="hero__content reveal">
+          <p class="eyebrow">23 vueltas alrededor del sol</p>
+          <h2 id="hero-title">Feliz cumpleaños,<br /><em>preciosa</em></h2>
+          <p class="hero__lead">
+            En Londres llegó primero. Ahora ya es oficial también en Guatemala:
+            estás bien viejita.
+          </p>
+          <div class="hero__date" aria-label="Feliz cumpleaños número 23">
+            <span>Feliz</span>
+            <strong>23</strong>
+            <span>vueltas</span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#para-ti" aria-label="Continuar con la sorpresa">
+          <span>desliza</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="opening section" id="para-ti">
+        <div class="opening__card reveal">
+          <span class="opening__mark" aria-hidden="true">“</span>
+          <p>
+            No quería mandarte solamente un mensaje. Quería dejarte un rinconcito al que
+            pudieras volver cuando quisieras recordar lo especial que te has vuelto para mí.
+          </p>
+          <small>Así que sí… hice todo esto para ti.</small>
+        </div>
+      </section>
+
+      <section class="gallery-section section" aria-labelledby="gallery-title">
+        <header class="section-heading reveal">
+          <p class="eyebrow">Mi lugar favorito del teléfono</p>
+          <h2 id="gallery-title">Las <em>fotobesitos</em><br />que me mantienen vivo</h2>
+          <p>
+            Una colección peligrosamente bonita de tus caritas, tus gestos y todas esas
+            pequeñas versiones de ti que me alegran el día.
+          </p>
+        </header>
+
+        <div class="photo-gallery" id="photo-gallery" aria-live="polite"></div>
+      </section>
+
+      <section class="mini-letter section">
+        <div class="mini-letter__paper reveal">
+          <p class="mini-letter__hello">Preciosa:</p>
+          <p>
+            Qué bonito fue pedir aquel número de la persona que tenía HBO y terminar
+            encontrando a alguien que se hizo tan especial para mí.
+          </p>
+          <p>
+            Me haces reír, me haces extrañarte y también consigues que quiera contarte hasta
+            las cosas más pequeñas de mi día.
+          </p>
+          <p class="mini-letter__signature">Con mucho, mucho, muchooo cariño,<br /><strong>Ema</strong></p>
+        </div>
+      </section>
+
+      <section class="motion-section section" aria-labelledby="motion-title">
+        <header class="section-heading section-heading--compact reveal">
+          <p class="eyebrow">Porque una foto a veces no alcanza</p>
+          <h2 id="motion-title">Tus momentos<br /><em>en movimiento</em></h2>
+          <p>Tres pedacitos que guardé porque hasta tus gestos más simples me encantan.</p>
+        </header>
+        <div class="video-grid">
+          <figure class="video-card reveal">
+            <video
+              src="images/WhatsApp Video 2026-11-02 at 20.59.24.mp4"
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              controls
+            ></video>
+            <figcaption>Mi niña bonita, hasta cuando me enseña cualquier cosa.</figcaption>
+          </figure>
+          <figure class="video-card reveal">
+            <video
+              src="images/WhatsApp Video 2026-11-02 at 20.59.39.mp4"
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              controls
+            ></video>
+            <figcaption>Esta risa debería estar recetada para los días difíciles.</figcaption>
+          </figure>
+          <figure class="video-card reveal">
+            <video
+              src="images/WhatsApp Video 2026-11-02 at 20.59.57.mp4"
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              controls
+            ></video>
+            <figcaption>La viajera más preciosa de todo el avión.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="promise section" id="harry-stamper" aria-labelledby="promise-title">
+        <div class="promise__noise" aria-hidden="true"></div>
+        <button class="song-pill reveal" id="play-harry" type="button">
+          <span aria-hidden="true">♫</span>
+          <span>Harry Stamper · HUMBE</span>
+        </button>
+        <div class="promise__content reveal">
+          <p id="promise-title">
+            No estoy seguro de si <em>moriría por ti</em>.
+          </p>
+          <p>
+            De lo que sí estoy seguro es de que entregaría mi vida entera a
+            <strong>vivir por ti</strong>, si me lo permites.
+          </p>
+        </div>
+        <span class="promise__heart" aria-hidden="true">♥</span>
+      </section>
+
+      <section class="letter-section section" aria-labelledby="letter-title">
+        <header class="section-heading reveal">
+          <p class="eyebrow">Hay cosas que merecen decirse despacio</p>
+          <h2 id="letter-title">Una carta<br /><em>para ti</em></h2>
+        </header>
+        <article class="letter reveal">
+          <p>Hola, preciosa. Buenas noches.</p>
+          <p>
+            Acá aún son las seis de la tarde, pero donde estás ya es medianoche. Y desde acá
+            me gustaría decirte no solo feliz cumpleaños, sino también que estoy agradecido
+            de estar formando parte de tu vida.
+          </p>
+          <p>
+            Sé que no hemos estado al cien durante todo este tiempo, pero formar parte de tu
+            vida en estos momentos ha sido de las cosas más bonitas que me han pasado después
+            de mucho tiempo. Te felicito porque es tu cumpleaños y te agradezco por estarlo
+            viviendo conmigo.
+          </p>
+          <p>
+            Eres una persona a la que no le cuesta demostrar las cosas y estoy muy agradecido
+            contigo por eso. Luchas por lo que quieres, aunque tires indirectas de vez en
+            cuando. Yo sé que vas a lograr tantas cosas por tu forma tan linda y divertida de
+            ser.
+          </p>
+          <blockquote>
+            Espero que nos sigamos escogiendo hasta que ya no podamos más.
+          </blockquote>
+          <p>
+            Te quiero mucho, mucho, muchooo. Te extraño tanto, pero tanto. Espero verte muy
+            pronto.
+          </p>
+          <footer>Con mucho amor,<br /><strong>Ema</strong></footer>
+        </article>
+      </section>
+
+      <section class="guatemala section" aria-labelledby="guatemala-title">
+        <div class="guatemala__confetti" id="confetti" aria-hidden="true"></div>
+        <div class="guatemala__content reveal">
+          <p class="eyebrow">Ahora sí, oficialmente en Guatemala</p>
+          <h2 id="guatemala-title">¡Felices<br /><em>23!</em></h2>
+          <div class="guatemala__message">
+            <p>Hola, niña berrinchuda:</p>
+            <p>
+              Ya estás bien viejita, así que recuerda tomarte tus pastillas. Te quiero mucho.
+              Eres una persona súper especial y espero que cumplas muchísimos años más.
+            </p>
+            <p>
+              Que sigamos estando juntos, que tengas un día precioso y que no olvides algo
+              muy importante…
+            </p>
+            <strong>nos vemos el sabaaaadooooo 💗</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing section" aria-labelledby="closing-title">
+        <div class="closing__content reveal">
+          <p class="eyebrow">Una última cosita</p>
+          <h2 id="closing-title">Toca el corazón</h2>
+          <button class="big-heart" id="final-heart" type="button" aria-label="Abrir el mensaje final">
+            <span aria-hidden="true">♥</span>
+          </button>
+          <div class="closing__message" id="final-message" aria-hidden="true">
+            <p>
+              Tantas palabras por decir y ninguna logra expresar todo lo que quiero decirte.
+            </p>
+            <strong>Te quiero mucho, mucho, mucho, muchooo.</strong>
+            <span>Feliz cumpleaños, preciosa.</span>
+            <span>mua mua 💗</span>
+            <small>— Ema</small>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="music-player" id="music-player" aria-label="Reproductor de música">
+      <button class="music-player__toggle" id="player-toggle" type="button" aria-label="Mostrar canciones">
+        <span class="vinyl" aria-hidden="true">♥</span>
+      </button>
+      <div class="music-player__body">
+        <div class="music-player__meta">
+          <span>Está sonando</span>
+          <strong id="track-title">Harry Stamper</strong>
+        </div>
+        <div class="music-player__controls">
+          <button id="prev-track" type="button" aria-label="Canción anterior">‹</button>
+          <button id="play-pause" class="play-pause" type="button" aria-label="Pausar música">Ⅱ</button>
+          <button id="next-track" type="button" aria-label="Siguiente canción">›</button>
+        </div>
+        <div class="music-player__timeline">
+          <span id="current-time">0:00</span>
+          <input id="track-progress" type="range" min="0" max="100" value="0" aria-label="Progreso de la canción" />
+          <span id="track-duration">0:00</span>
+        </div>
+        <div class="playlist" id="playlist"></div>
+      </div>
+    </aside>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotobesito ampliada" aria-hidden="true">
+      <button class="lightbox__close" id="lightbox-close" type="button" aria-label="Cerrar fotografía">×</button>
+      <img id="lightbox-image" alt="" />
+      <p id="lightbox-caption"></p>
+    </div>
+
+    <audio id="audio-player" preload="metadata"></audio>
+    <script src="js/app.js"></script>
+  </body>
+</html>
