@@ -16,7 +16,7 @@ const photos = [
   ["WhatsApp Image 2026-11-02 at 20.59.42.jpeg", "Encontrarte entre tanta gente siempre sería mi parte favorita."],
   ["WhatsApp Image 2026-11-02 at 20.59.43 (1).jpeg", "Esa carita, ese collar y yo queriendo darte muchos besitos."],
   ["WhatsApp Image 2026-11-02 at 20.59.43.jpeg", "Otro fotobesito para guardar y volver a mirar cuando te extraño."],
-  ["WhatsApp Image 2026-11-02 at 20.59.44 (1).jpeg", "Una foto juntos y otra razón para querer fabricar más recuerdos."],
+  ["WhatsApp Image 2026-11-02 at 20.59.44 (1).jpeg", "Mi niña con su influencer; esa foto también tenía que estar aquí."],
   ["WhatsApp Image 2026-11-02 at 20.59.44.jpeg", "No sé cómo haces, pero todas tus versiones terminan gustándome."],
   ["WhatsApp Image 2026-11-02 at 20.59.45 (1).jpeg", "Un acercamiento científicamente necesario a tus ojitos bonitos."],
   ["WhatsApp Image 2026-11-02 at 20.59.45.jpeg", "Mi niña bonita recorriendo el mundo y contándome un poquito de él."],
